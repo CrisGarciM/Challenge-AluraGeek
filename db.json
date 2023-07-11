@@ -1,28 +1,10 @@
 {
   "users": [
     {
-      "name": "test",
-      "email": "test@test.test",
-      "password": "123",
-      "id": "e330000b-cadd-4a35-911f-c08d8eb4520d"
-    },
-    {
-      "name": "cq",
-      "email": "cc@c.C",
-      "password": "c",
-      "id": "beb63de4-60e3-49a9-8c0d-fcb20430cb50"
-    },
-    {
-      "name": "1",
-      "email": "cesar@gmail.com",
-      "password": "123",
-      "id": "d336f49d-c9f2-49ff-91fe-804b38fe4694"
-    },
-    {
-      "name": "tati",
-      "email": "tatiana27ocean@gmail.com",
+      "name": "cristian",
+      "email": "garciamesa@gmail.com",
       "password": "1234",
-      "id": "cdbd2176-5eed-4e5e-871b-8b9c02d74cb0"
+      "id": "bc64659a-785d-4e1a-9d8a-e316c2ca1aef"
     }
   ],
   "categories": [
