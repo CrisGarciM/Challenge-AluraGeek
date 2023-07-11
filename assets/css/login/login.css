@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 53vh;
+    padding-bottom: 3rem;
 }
 
 .login__form {

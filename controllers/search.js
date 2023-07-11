@@ -2,8 +2,6 @@ const container = document.getElementById('search__container');
 const search = document.getElementById('search__items');
 const action = document.getElementById('search__action');
 
-console.log('Search elements:', container, search, action)
-
 let products = [];
 
 setInterval(() => {
@@ -15,8 +13,6 @@ const update = () => {
 
     for (const product of products) {
         const name = (product.getAttribute('data-product') || '').toLowerCase().trim();
-
-        console.log('Search value and product', {value, name})
 
         product.style.display = !value || !name || name.includes(value) ? 'flex' : 'none';
     }
