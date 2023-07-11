@@ -1,5 +1,5 @@
 import {productosServicios} from "../servicios/productos-servicios.js";
-import {nuevoProducto} from "./productsController.js";
+import {nuevoProducto} from "../controllers/productsController.js";
 
 const imgProduct = document.querySelector('[data-img]');
 const nameProduct = document.querySelector('[data-name]');

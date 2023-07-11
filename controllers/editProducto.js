@@ -13,7 +13,7 @@ const id = url.searchParams.get("id");
 const getInfo = async () => {
     try {
         const product = await productosServicios.detalleProducto(id);
-
+        
         imgUrl.value = product.imageUrl;
         nombre.value = product.name;
         precio.value = product.price;
